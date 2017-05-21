@@ -58,9 +58,18 @@ git 删除
     git rm -f <filename>: 从缓存区和工作区中直接强制删除对应的文件
     git rm --cached <filename>: 从缓存区中删除,并会保留工作区的文件
 
-git 恢复(或者还原文件的之前版本)
+git 恢复(还原过去或未来版本的文件)
     git checkout id <filename> -- 还原指定文件 - id获取: git log --> 选取每条记录(commit) 后的字符串的一部分即可
     git reset --hard id --> 还原版本
     git reset --hard HEAD^ --> 逐步还原之前的版本
     git reset --hard HEAD~3 --> 还原之前的第三个版本
-    git reflog --> 查看之前的操作(获取每条记录开始的字符串) --> git reset --hard hjhgleg
+    git reflog --> 查看之前每次操作记录(获取每条记录开始的字符串) --> git reset --hard hjhgleg
+
+git 同步到远程仓库
+    git remote --> 查看远程仓库的名字
+    git remote -v --> 查看远程仓库的地址
+    git push origin master --> push到远程仓库
+
+git 添加协作人员: 必须是已经注册的GitHub账号
+    https://github.com/xiaxs/xiaxs-study -> Settings -> Collaborators -> 输入后 -> Add collaborators
+    -> 被添加的人同意即可
