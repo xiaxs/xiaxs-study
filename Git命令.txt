@@ -37,7 +37,7 @@ git commit -m "注释内容"
 
 git commit -a -m "注释内容" --> 合并 git add . 和 git commit -m ""
 
-git log: 查看git操作文件记录
+git log: 查看git操作文件记录,按下 Enter 键查看更多记录,按下 Q键 退出当前记录
 
 git 对比:
     git diff: 工作区与缓存区之间的差异对比
@@ -46,9 +46,9 @@ git 对比:
     git diff 分支(git diff master): 工作区与版本库之间的差异对比
 
 git 撤销:
-    git reset HEAD <file name>
+    git reset HEAD <file name>: 从暂存区撤销回工作区
     git checkout -- <file name>: 工作区撤销返回到版本库的状态
-    git commit --amend: 比如需要提交a,b两个文件,但是只提交了一个,则把未提交的文件添加进缓存区,然后再一起提交
+    git commit --amend: 误提交后返回重新提交,比如需要提交a,b两个文件,但是只提交了一个,则把未提交的文件添加进缓存区,然后再一起提交
     example: 只提交了a.js -> git commit -m "modified a.js"
              添加另外一个a.js -> git add b.js
              撤销上次提交再一起提交: git commit "changes to commit a.js b.js" --amend
