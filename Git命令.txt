@@ -46,4 +46,5 @@ git 对比:
     git diff 分支(git diff master): 工作区与版本库之间的差异对比
 
 git 撤销:
-    
+    git reset HEAD <file name>
+    git checkout -- <file name>: 工作区撤销返回到版本库的状态
