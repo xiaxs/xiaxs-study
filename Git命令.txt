@@ -93,6 +93,10 @@ git 分支
     git checkout -b <branch name> --> 快速创建并切换到新分支
     git merge testBranch --> 合并分支,必须切换到需要做分支操作的那条主分支
         exmple: master分支合并testBranch分支,首先需要切换到master分支,然后再执行 git merge newBranch
+    git branch --merged --> 查看当前分支所合并的分支
+    git branch --no-merged --> 查看当前分支没有合并的分支
+    git branch -d <branch name> --> 删除分支,没有合并的分支默认不删除
+    git branch -D <branch name> --> 强制删除未合并的分支
 
 
 开源项目的协作:
