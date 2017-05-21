@@ -48,3 +48,4 @@ git 对比:
 git 撤销:
     git reset HEAD <file name>
     git checkout -- <file name>: 工作区撤销返回到版本库的状态
+    abc
