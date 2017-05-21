@@ -70,10 +70,17 @@ git 恢复(还原过去或未来版本的文件)
     git reflog --> 查看之前每次操作记录(获取每条记录开始的字符串) --> git reset --hard hjhgleg
 
 git 同步到远程仓库
-    git remote --> 查看远程仓库的名字
+    git remote --> 查看远程仓库的名字(origin)
     git remote -v --> 查看远程仓库的地址
     git push origin master --> push到远程仓库
 
 git 添加协作人员: 必须是已经注册的GitHub账号
     https://github.com/xiaxs/xiaxs-study -> Settings -> Collaborators -> 输入后 -> Add collaborators
     -> 被添加的人同意即可
+
+git多人协作解决冲突
+    在修改之前先拉取远程仓库的地址 git pull / git fetch
+    git fetch --> 不会进行代码的merge操作,需要手动merge
+        git fetch -> git diff master origin/master -> git merge origin/master -> 出现冲突 -> 在冲突文件中比对后删除冲突位置的代码 -> git commit -a -m "resolve conflict" -> git push origin master
+
+    git pull
