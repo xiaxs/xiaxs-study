@@ -57,3 +57,10 @@ git 删除
     git rm <filename>: 将从工作区直接删除(如右键-删除)的文件同步到缓存区
     git rm -f <filename>: 从缓存区和工作区中直接强制删除对应的文件
     git rm --cached <filename>: 从缓存区中删除,并会保留工作区的文件
+
+git 恢复(或者还原文件的之前版本)
+    git checkout id <filename> -- 还原指定文件 - id获取: git log --> 选取每条记录(commit) 后的字符串的一部分即可
+    git reset --hard id --> 还原版本
+    git reset --hard HEAD^ --> 逐步还原之前的版本
+    git reset --hard HEAD~3 --> 还原之前的第三个版本
+    git reflog --> 查看之前的操作(获取每条记录开始的字符串) --> git reset --hard hjhgleg
