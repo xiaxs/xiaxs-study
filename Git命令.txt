@@ -48,4 +48,7 @@ git 对比:
 git 撤销:
     git reset HEAD <file name>
     git checkout -- <file name>: 工作区撤销返回到版本库的状态
-    abc
+    git commit --amend: 比如需要提交a,b两个文件,但是只提交了一个,则把未提交的文件添加进缓存区,然后再一起提交
+    example: 只提交了a.js -> git commit -m "modified a.js"
+             添加另外一个a.js -> git add b.js
+             撤销上次提交再一起提交: git commit "changes to commit a.js b.js" --amend
