@@ -86,6 +86,14 @@ git多人协作解决冲突
     git pull --> 自动进行代码的合并操作
         git pull -> 在冲突文件中比对后删除冲突位置的代码 -> git commit -a -m "resolve conflict" -> git push origin master
 
+git 分支
+    git branch --> 查看分支, 带星号(*)的为当前分支
+    git branch <branch name> --> 创建分支
+    git checkout <branch name> --> 切换当前分支
+    git checkout -b <branch name> --> 快速创建并切换到新分支
+    git merge testBranch --> 合并分支,必须切换到需要做分支操作的那条主分支
+        exmple: master分支合并testBranch分支,首先需要切换到master分支,然后再执行 git merge newBranch
+
 
 开源项目的协作:
 
