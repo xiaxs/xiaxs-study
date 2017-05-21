@@ -109,6 +109,16 @@ GitHub上的标签(GitHub上的 release-版本信息)
     git tag v1.0 --> 设置标签(release)
     git push origin v1.0 --> 将版本信息同步到远程GitHub
 
+GitHub创建组织
+    GitHub -> New orgination -> Adinnet
+
+GitHub创建博客
+    GitHub创建: https://pages.github.com
+
+Git资源
+    http://git.oschina.net/progit/
+    http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
 
 
 开源项目的协作:
