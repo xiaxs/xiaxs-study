@@ -79,8 +79,14 @@ git 添加协作人员: 必须是已经注册的GitHub账号
     -> 被添加的人同意即可
 
 git多人协作解决冲突
-    在修改之前先拉取远程仓库的地址 git pull / git fetch
+    在开发之前先拉取远程仓库的地址 git pull / git fetch, 开完之后及时进行提交
     git fetch --> 不会进行代码的merge操作,需要手动merge
         git fetch -> git diff master origin/master -> git merge origin/master -> 出现冲突 -> 在冲突文件中比对后删除冲突位置的代码 -> git commit -a -m "resolve conflict" -> git push origin master
 
-    git pull
+    git pull --> 自动进行代码的合并操作
+        git pull -> 在冲突文件中比对后删除冲突位置的代码 -> git commit -a -m "resolve conflict" -> git push origin master
+
+
+开源项目的协作:
+
+fork: 将开源项目镜像到自己的GitHub,修改后按照正常方式提交提交推送 -> pull request -> New pull request -> Create pull request, 有权限的开发者收到请求后,确认无误后合并请求,(主开发回复贡献者: 复制comment后按下R同步注释)
