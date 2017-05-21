@@ -100,6 +100,13 @@ git 分支
 
     Git分支冲突的处理: 当合并多个分支时,每次合并一个分支(git merge newBranch),如果有冲突,手动处理冲突后,提交代码 git commit -a -m "resolve conflict"
 
+GitHub上的分支
+    git push origin newBranch --> 同步新分支到GitHub
+    GitHub直接创建
+
+GitHub上的标签(GitHub上的 release)
+
+
 
 开源项目的协作:
 
