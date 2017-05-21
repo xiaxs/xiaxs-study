@@ -52,3 +52,8 @@ git 撤销:
     example: 只提交了a.js -> git commit -m "modified a.js"
              添加另外一个a.js -> git add b.js
              撤销上次提交再一起提交: git commit "changes to commit a.js b.js" --amend
+
+git 删除
+    git rm <filename>: 将从工作区直接删除(如右键-删除)的文件同步到缓存区
+    git rm -f <filename>: 从缓存区和工作区中直接强制删除对应的文件
+    git rm --cached <filename>: 从缓存区中删除,并会保留工作区的文件
