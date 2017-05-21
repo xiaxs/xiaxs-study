@@ -25,11 +25,25 @@ email: git config --global user.email
 查看git下所有的文件 git config --list
 
 git status: 查看工作区和缓存区状态
+
+// 添加单个文件到git缓存区
 git add Git.txt
 git add Git命令.txt
+git add demo.html
 
 git add . : 提交整个文件夹里的所有文件
 
 git commit -m "注释内容"
 
 git commit -a -m "注释内容" --> 合并 git add . 和 git commit -m ""
+
+git log: 查看git操作文件记录
+
+git 对比:
+    git diff: 工作区与缓存区之间的差异对比
+    git diff --cached: 缓存区与版本库之间的差异对比
+    git diff --staged: 缓存区与版本库之间的差异对比
+    git diff 分支(git diff master): 工作区与版本库之间的差异对比
+
+git 撤销:
+    
