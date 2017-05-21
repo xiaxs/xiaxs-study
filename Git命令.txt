@@ -31,3 +31,5 @@ git add Git命令.txt
 git add . : 提交整个文件夹里的所有文件
 
 git commit -m "注释内容"
+
+git commit -a -m "注释内容" --> 合并 git add . 和 git commit -m ""
