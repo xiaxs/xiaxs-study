@@ -98,6 +98,8 @@ git 分支
     git branch -d <branch name> --> 删除分支,没有合并的分支默认不删除
     git branch -D <branch name> --> 强制删除未合并的分支
 
+    Git分支冲突的处理: 当合并多个分支时,每次合并一个分支(git merge newBranch),如果有冲突,手动处理冲突后,提交代码 git commit -a -m "resolve conflict"
+
 
 开源项目的协作:
 
