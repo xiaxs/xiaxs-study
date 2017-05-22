@@ -6,52 +6,52 @@
 
 ##### MAC - 命令行方式:
 ###### 进入文件夹
-    * 方式一
-    * cd /users/zsh/GitHub
-    *
-    * 方式二:
-    * cd ~
-    * cd GitHub/xiaxs-study
+    方式一
+    cd /users/zsh/GitHub
+
+    方式二:
+    cd ~
+    cd GitHub/xiaxs-study
 
 ##### 克隆GitHub远程仓库: git clone [url]
     HTTPS: git clone https://github.com/xiaxs/xiaxs-study.git
     SSH(需要配置SSH KEY): git clone git@github.com:xiaxs/xiaxs-study.git
 
 ##### 设置/切换作者信息: name email
-    * name:  git config --global user.name "xiaxs"
-    * email: git config --global user.email "xxs19910202@vip.qq.com"
+    name:  git config --global user.name "xiaxs"
+    email: git config --global user.email "xxs19910202@vip.qq.com"
 > 没有提示即为设置成功
 
 ##### 同一台电脑切换不同的GitHub账户
-    * git config --global user.name "xxs19910202"
-    * git config --global user.email "xiaxiansheng@adinnet.cn"
+    git config --global user.name "xxs19910202"
+    git config --global user.email "xiaxiansheng@adinnet.cn"
 >切换后需要登录GitHub账户,才能执行git相关操作
 
 ##### 查看当前设置的作者信息:
-    * name:  git config --global user.name
-    * email: git config --global user.email
+    name:  git config --global user.name
+    email: git config --global user.email
 >不填写用户名或者邮箱即可
 >
 ##### 查看git下所有的文件
-    * git config --list
+    git config --list
 
 ##### 查看工作区和缓存区状态:
-    * git status
+    git status
 
 ##### 添加单个文件到git缓存区
-    * git add git.txt
-    * git add demo.html
+    git add git.txt
+    git add demo.html
 
 ##### 提交整个文件夹里的所有文件
-    * git add .
+    git add .
 
 ##### git提交
-    * git commit -m "注释内容"
-    * git commit -a -m "注释内容" --> 合并 git add . 和 git commit -m ""
+    git commit -m "注释内容"
+    git commit -a -m "注释内容" --> 合并 git add . 和 git commit -m ""
 
 ##### 查看git操作文件记录
-    * git log: 查看git操作文件记录
-    * 按下 Enter 键查看更多记录,按下 Q键 退出当前记录
+    git log: 查看git操作文件记录
+    按下 Enter 键查看更多记录,按下 Q键 退出当前记录
 
 ##### git 对比:
     git diff: 工作区与缓存区之间的差异对比
