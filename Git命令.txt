@@ -4,7 +4,7 @@
 
 GitHub注册信息:
             用户名: xiaxs
-            邮箱:  xxs19910202@vip.qq.com
+            邮 箱:  xxs19910202@vip.qq.com
 
 MAC - 命令行方式:
 进入文件夹: cd /users/zsh/GitHub -- /users-用户 /zsh-用户名
