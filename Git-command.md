@@ -1,4 +1,4 @@
-> @author: xiaxs(xxs19910202@vip.qq.com)
+> @Author: xiaxs(xxs19910202@vip.qq.com)
 
 ##### GitHub注册信息:
     用户名: xiaxs
