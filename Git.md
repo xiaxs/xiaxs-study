@@ -1,13 +1,12 @@
-/*
- * @author: xiaxs(xxs19910202@vip.qq.com)
-*/
+> @Author: xiaxs(xxs19910202@vip.qq.com)<br>
+> @[markdown-兔清风的博客](http://blog.csdn.net/witnessai1/article/details/52551362)
 
-1. 与SVN的区别:
+##### 与SVN的区别:
     SVN: 集成式,从中央服务器获取和提交代码,风险较大
     Git: 分布式,不需要连接中央服务器,每台电脑都可以是一个独立的本地服务器
     GitHub: 实现多人协作的方式
 
-2. Git的三个区:
+##### Git的三个区:
     工作区: 本地仓库文件
     暂存区: 本地修改的代码暂存到缓存区,作为过渡层,避免误操作,保护工作区和版本库,进行分支处理
     版本库:
