@@ -124,11 +124,13 @@
 
 ##### GitHub创建博客
     GitHub创建: https://pages.github.com
-[创建博客](https://pages.github.com)
+* [创建博客](https://pages.github.com)
 
 ##### Git资源
     http://git.oschina.net/progit/
     http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+* [proGit](http://git.oschina.net/progit/)
+* [廖雪峰](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 
 
 
