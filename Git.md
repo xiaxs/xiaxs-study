@@ -1,5 +1,5 @@
 > @Author: xiaxs(xxs19910202@vip.qq.com)<br>
-> @[markdown-兔清风的博客](http://blog.csdn.net/witnessai1/article/details/52551362)
+> @[markdown-兔清风的博客](http://blog.leanote.com/post/freewalk/Markdown-%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C#index)
 
 ##### 与SVN的区别:
     SVN: 集成式,从中央服务器获取和提交代码,风险较大
