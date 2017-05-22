@@ -19,7 +19,7 @@ name:  git config --global user.name "xiaxs"   // 没有提示则为设置成功
 email: git config --global user.email "xxs19910202@vip.qq.com" // 没有提示则为设置成功
 
 // 同一台电脑切换不同的GitHub账户
-可以使用 git config --global user.name "xxs19910202" git config --global user.email "xiaxiansheng@adinnet.cn"的方式切换另一个开发者
+可以使用 git config --global user.name "xxs19910202" / git config --global user.email "xiaxiansheng@adinnet.cn"的方式切换另一个开发者
 GitHub客户端也需要同步登陆
 
 查看设置的作者信息: 不填写用户名或者邮箱即可
