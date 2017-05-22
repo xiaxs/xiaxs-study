@@ -123,7 +123,8 @@
     GitHub -> New orgination -> Adinnet
 
 ##### GitHub创建博客
-    GitHub创建: [https://pages.github.com](https://pages.github.com)
+    GitHub创建: https://pages.github.com
+[创建博客](https://pages.github.com)
 
 ##### Git资源
     http://git.oschina.net/progit/
