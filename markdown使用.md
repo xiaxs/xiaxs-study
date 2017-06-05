@@ -126,7 +126,7 @@ Markdown 支持以比较简短的自动链接形式来处理网址和电子邮�
 
 **显示效果：**
 
-<http://example.com/>
+<http://example.com/><br>
 <address@example.com>
 
 ***
