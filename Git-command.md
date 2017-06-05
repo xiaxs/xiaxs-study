@@ -108,12 +108,15 @@
     git branch --no-merged --> 查看当前分支没有合并的分支
     git branch -d <branch name> --> 删除分支,没有合并的分支默认不删除
     git branch -D <branch name> --> 强制删除未合并的分支
+    git branch -m <old_name> <new_name> --> 修改分支名称
 
     Git分支冲突的处理: 当合并多个分支时,每次合并一个分支(git merge newBranch),如果有冲突,手动处理冲突后,提交代码 git commit -a -m "resolve conflict"
 
 ##### GitHub上的分支
     git push origin newBranch --> 同步新分支到GitHub
-    git push origin :<branchName> --> 删除GitHub远程分支
+    git push origin :<branch_name> --> 删除GitHub远程分支
+    git push origin --delete <branch_name> --> 删除GitHub远程分支
+
     GitHub直接创建
 
 ##### GitHub上的标签(GitHub上的 release-版本信息)
