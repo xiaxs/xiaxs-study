@@ -113,6 +113,7 @@
 
 ##### GitHub上的分支
     git push origin newBranch --> 同步新分支到GitHub
+    git push origin :<branchName> --> 删除GitHub远程分支
     GitHub直接创建
 
 ##### GitHub上的标签(GitHub上的 release-版本信息)
