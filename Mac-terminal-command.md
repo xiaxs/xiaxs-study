@@ -1,6 +1,16 @@
 > @Author: xiaxs(xxs19910202@vip.qq.com)<br>
 > @[markdown-兔清风的博客](http://blog.leanote.com/post/freewalk/Markdown-%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C#index)
 
+##### 显示隐藏文件
+```
+defaults write com.apple.finder AppleShowAllFiles -bool true
+```
+
+#### 隐藏文件
+```
+defaults write com.apple.finder AppleShowAllFiles -bool false
+```
+
 ##### Mac 文件目录
     " / "   --> 根目录 --> cd /
     " ~ "   --> 用户主目录的缩写,如: 当前用户为zsh,那么 "~" 展开就是 /Users/zsh --> cd ~
