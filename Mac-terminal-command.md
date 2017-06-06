@@ -7,7 +7,8 @@ cat ~/.ssh/id_rsa.pub
 如果显示以 ssh-rsa or ssh-ds 开头的一长串的字符串,表示已经存在SSH Key
 
 如果没有:
-ssh-keygen -t rsa -C "xiaxiansheng@adinnet.cn"
+ssh-keygen -t rsa -C "email@example.com"
+eg: ssh-keygen -t rsa -C "xiaxiansheng@adinnet.cn"
 
 生成后查看:
 cat ~/.ssh/id_rsa.pub
