@@ -1,6 +1,24 @@
 > @Author: xiaxs(xxs19910202@vip.qq.com)<br>
 > @[markdown-兔清风的博客](http://blog.leanote.com/post/freewalk/Markdown-%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C#index)
 
+#### 查看当前设备是否存在SSH Key
+```
+cat ~/.ssh/id_rsa.pub
+如果显示以 ssh-rsa or ssh-ds 开头的一长串的字符串,表示已经存在SSH Key
+
+如果没有:
+ssh-keygen -t rsa -C "xiaxiansheng@adinnet.cn"
+
+生成后查看:
+cat ~/.ssh/id_rsa.pub
+
+赋值密钥:
+Mac: pbcopy < ~/.ssh/id_rsa.pub
+Windows: clip < ~/.ssh/id_rsa.pub
+Linux: xclip -sel clip < ~/.ssh/id_rsa.pub
+```
+
+
 ##### 显示隐藏文件
 ```
 defaults write com.apple.finder AppleShowAllFiles -bool true
