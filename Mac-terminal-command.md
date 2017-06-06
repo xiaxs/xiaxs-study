@@ -1,5 +1,5 @@
 > @Author: xiaxs(xxs19910202@vip.qq.com)<br>
-> @[markdown-兔清风的博客](http://blog.leanote.com/post/freewalk/Markdown-%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C#index)
+> @[Markdown-兔清风的博客](http://blog.leanote.com/post/freewalk/Markdown-%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C#index)
 
 ##### 查看当前设备是否存在SSH Key
 ```
