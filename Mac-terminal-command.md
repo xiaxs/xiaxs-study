@@ -12,10 +12,10 @@ ssh-keygen -t rsa -C "xiaxiansheng@adinnet.cn"
 生成后查看:
 cat ~/.ssh/id_rsa.pub
 
-赋值密钥:
-Mac: pbcopy < ~/.ssh/id_rsa.pub
-Windows: clip < ~/.ssh/id_rsa.pub
-Linux: xclip -sel clip < ~/.ssh/id_rsa.pub
+复制密钥:
+Mac:        pbcopy < ~/.ssh/id_rsa.pub
+Windows:    clip < ~/.ssh/id_rsa.pub
+Linux:      xclip -sel clip < ~/.ssh/id_rsa.pub
 ```
 
 
