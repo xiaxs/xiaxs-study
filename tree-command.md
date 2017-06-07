@@ -20,7 +20,7 @@ tree -L 3 -I "node_modules" > tree.md
 > tree.md会生成在当前目录
 
 ```
-1. tree  -a 显示所有文件和目录
+1. tree -a 显示所有文件和目录
 
 2. tree -d 显示目录名称而非内容
 
