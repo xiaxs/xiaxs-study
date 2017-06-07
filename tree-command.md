@@ -2,12 +2,12 @@
 
 #### 1. Install Homebrew
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 #### 2. Install tree
 ```
-brew install tree
+$ brew install tree
 ```
 
 
@@ -16,7 +16,7 @@ brew install tree
 例如:
 显示某个项目下3层的所有文件结构，同时又过滤node_modules文件夹，最后输出到 tree.md
 
-tree -L 3 -I "node_modules" > tree.md
+$ tree -L 3 -I "node_modules" > tree.md
 ```
 > tree.md会生成在当前目录
 
