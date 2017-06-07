@@ -37,7 +37,9 @@ tree -L 3 -I "node_modules" > tree.md
 
 8. tree -dirsfirst 目录显示在前,文件显示在后
 
-9. 可以加的参数
+9. tree --help 显示更多tree命令
+
+10. 可以加的参数
     -A 使用ASNI绘图字符显示树状图而非以ASCII字符组合。
     -C 在文件和目录清单加上色彩，便于区分各种类型。
     -D 列出文件或目录的更改时间。
