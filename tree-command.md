@@ -13,6 +13,7 @@ brew install tree
 
 #### 3. Mac下 tree命令
 ```
+例如:
 显示某个项目下3层的所有文件结构，同时又过滤node_modules文件夹，最后输出到 tree.md
 
 tree -L 3 -I "node_modules" > tree.md
